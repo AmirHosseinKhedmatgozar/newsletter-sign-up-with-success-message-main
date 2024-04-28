@@ -1,0 +1,111 @@
+:root {
+  --color-body: rgb(25, 25, 84);
+  --font-saiz: 15px;
+  --background-hover: linear-gradient(to right, #ee0979, #ff6a00);
+  --background: linear-gradient(to right, #6993da, #000c40);
+}
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "roboto-regular";
+  font-size: var(--font-saiz);
+}
+h1 {
+  font-family: "roboto-bold";
+  font-size: 40px;
+  margin-left: 35px;
+}
+.container-1 {
+  width: 800px;
+  background-color: #fff;
+  height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5%;
+}
+.container--info {
+  width: 350px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.ticked--item {
+  display: flex;
+}
+.icon-tick {
+  padding-right: 7px;
+}
+.form--information {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.p-email {
+  margin-bottom: 15px;
+  font-family: "roboto-bold";
+}
+input,
+button {
+  border: none;
+  width: 330px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: all ease-in-out 0.2s;
+}
+input {
+  border: 0.5px solid #999;
+}
+button {
+  margin-bottom: 0;
+  color: #fff;
+  background: var(--background);
+  cursor: pointer;
+}
+button:hover {
+  background: var(--background-hover);
+  box-shadow: 0px 10px 50px salmon;
+}
+.container-2 {
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 5%;
+  padding: 30px;
+}
+.h1 {
+  margin-left: 0;
+  font-size: 55px;
+}
+.btn {
+  width: 360px;
+}
+span {
+  font-weight: 800;
+  font-size: 15.5px;
+}
